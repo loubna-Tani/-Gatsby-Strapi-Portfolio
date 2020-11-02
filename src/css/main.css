@@ -25,6 +25,7 @@ Variables
   --clr-primary-8: hsl(184, 80%, 74%);
   --clr-primary-9: hsl(185, 94%, 87%);
   --clr-primary-10: #fbf3d6;
+ 
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-3: hsl(209, 34%, 30%);
@@ -130,7 +131,7 @@ p {
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
-  color: var(--clr-primary-9);
+  color: var(--clr-primary-10);
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
   display: inline-block;
@@ -144,8 +145,8 @@ p {
   border-radius: var(--radius);
 }
 .btn:hover {
-  color: var(--clr-primary-1);
-  background: var(--clr-primary-8);
+  color: var(--clr-primary-5);
+  background: var(--clr-primary-10);
 }
 .center-btn {
   display: block;
@@ -190,7 +191,7 @@ p {
 /* social links */
 .social-links {
   margin-top: 2rem;
-  width: 15rem;
+  width: 9rem;
   display: flex;
   justify-content: space-between;
 }
