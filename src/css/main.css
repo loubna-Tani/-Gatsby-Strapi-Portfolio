@@ -839,14 +839,14 @@ Footer
 */
 .footer {
   height: 9rem;
-  background: #222;
+  background:var(--clr-primary-10);
   text-align: center;
   display: grid;
   place-items: center;
 }
 .footer h4 {
   margin-top: 0.5rem;
-  color: var(--clr-white);
+  color: rgb(17, 13, 2);
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -857,7 +857,7 @@ Footer
   margin: 0 auto 1rem auto;
 }
 .footer .social-link {
-  color: var(--clr-white);
+  color: black;
 }
 .footer .social-link:hover {
   color: var(--clr-primary-5);
