@@ -30,7 +30,7 @@ export const query = graphql`
         }
         stack {
           id
-          name
+          title
         }
       }
     }

@@ -18,29 +18,29 @@ Variables
   --clr-primary-2: hsl(185, 84%, 25%);
   --clr-primary-3: hsl(185, 81%, 29%);
   --clr-primary-4: hsl(184, 77%, 34%);
-  --clr-primary-5: #c5c4b7;
+  --clr-primary-5:#c79043;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
   --clr-primary-8: hsl(184, 80%, 74%);
   --clr-primary-9: hsl(185, 94%, 87%);
-  --clr-primary-10: #f3f2e1;
+  --clr-primary-10: #e8d4b0;
  
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-1:#2d2b1f;
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-5: #88835e;
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: #f9f8f6;
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
-  --clr-white: #fff;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+  --clr-white: #ffffff;
+  --ff-primary: "Poppins", sans-serif;
+  --ff-secondary: "Poppins", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.2rem;
   --radius: 0.25rem;
@@ -222,6 +222,8 @@ Navbar
   align-items: center;
   z-index: 200;
   background: var(--clr-white);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
 }
 .nav-center {
   width: 90vw;
@@ -413,6 +415,81 @@ Sidebar Animation
 
 /*
 =============== 
+Herro
+===============
+*/
+
+.herro{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/baground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
+.text-container p:nth-child(1){
+  font-family: calibri;
+  font-weight: bold;
+  color: #6d6d6d;
+  font-size: 22px;
+
+}
+.text-container p:nth-child(2){
+  font-family: calibri;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  font-size: 60px;
+
+}
+.text-container p:nth-child(3){
+  font-family: myriad pro regular;
+  color: #403e3e;
+  font-size: 30px;
+  line-height: 30px;
+
+}
+
+.text-container p{
+  margin: 45px 0px 25px;
+  line-height: 0px;
+
+}
+
+.text-container {
+  position: absolute;
+  left:13%;
+  top:42%;
+  transform: translate(-13%,-42%);
+
+}
+.model{
+width:438px;
+height: 563px;
+position: absolute;
+top: 10%;
+bottom:10%;
+left:70%;
+transform:translate(-70%);
+}
+/*
+=============== 
+About me 
+===============
+*/
+.service-container{
+  width: 70%;
+  height: 330px;
+  background-color: #f9f8f6;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+  display: flex;
+  margin: -5% auto 20px auto;
+  position: relative;
+}
+
+/*
+=============== 
 Hero
 ===============
 */
@@ -420,7 +497,7 @@ Hero
 .hero {
   margin-top: -5rem;
   padding-top: 5rem;
-  height: 100vh;
+  height: 80vh;
   background: var(--clr-primary-10);
   position: relative;
 }
@@ -530,6 +607,8 @@ Services
 .service:hover .underline {
   background: var(--clr-grey-1);
 }
+
+
 @media screen and (min-width: 676px) {
   .services-center {
     display: grid;
