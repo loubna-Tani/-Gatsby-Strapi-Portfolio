@@ -26,9 +26,9 @@ const Herro = () => {
       <div className="text-container">
         <p>Hello,</p>
         <p>I'm Loubna</p>
-        <p>I'm Front end Developer and Dsigner </p>
+        <p>I'm Front end web Developer and web Dsigner. </p>
         <Link to ="/contact" className="btn"> contact me </Link>
-        
+        <SocialLinks />
       </div>
       <Image fluid={fluid} className="model" /> 
     </section>

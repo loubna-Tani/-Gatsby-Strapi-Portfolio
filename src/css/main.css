@@ -64,7 +64,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-white);
+  background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -421,7 +421,7 @@ Herro
 
 .herro{
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-image: url("../assets/baground.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -443,9 +443,9 @@ Herro
 
 }
 .text-container p:nth-child(3){
-  font-family: myriad pro regular;
+  font-family: calibri;
   color: #403e3e;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 30px;
 
 }
@@ -479,15 +479,46 @@ About me
 */
 .service-container{
   width: 70%;
-  height: 330px;
+  height: 300px;
   background-color: #f9f8f6;
   border-radius: 20px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
   display: flex;
-  margin: -5% auto 20px auto;
+  margin: -5% auto 10px auto;
   position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-text{
+  width: 550px;
+
 }
 
+.about-text p:nth-child(1){
+  font-family: calibri;
+  color: #403e3e;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 0px;
+
+}
+
+
+.about-text p:nth-child(2){
+  font-family: calibri;
+  color:#3e3d3d;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 5px;
+
+}
+
+.about-text p:nth-child(3),
+.about-text p:nth-child(4){
+  font-family: calibri;
+  color:#7e7d7d;
+  font-size: 16px;
+ }
 /*
 =============== 
 Hero
